@@ -1,0 +1,27 @@
+.cadastro{
+    
+}
+
+.cadastro > *{
+    font-size: 1rem;
+    color:aliceblue;
+    text-decoration: none;
+    margin-left: 1.2rem;  
+    display:block;
+    padding-top: 0.2rem;
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  
+}
+
+.cadastro>*:hover {
+    box-shadow: 0 0 40px 40px #555 inset;
+  }
+  
+.cad-mapa * {
+    margin-right: 5%;
+}
+
+.cad-tema * {
+    margin-right: 5%;
+}

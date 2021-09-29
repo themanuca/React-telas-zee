@@ -1,0 +1,118 @@
+body {
+    background: #ecf0f5;
+}
+
+.sidebar--sema {
+    padding-right: 1.2rem;
+}
+
+.content-header {
+    min-height: 50px;
+}
+
+.main-footer {
+    position: fixed;
+    bottom  : 0px;
+    width   : 100%;
+}
+
+button {
+    margin-left: 5px;
+}
+
+.table-actions {
+    width: 150px;
+}
+
+.content {
+    padding-bottom: 50px;
+}
+
+.box-body {
+    background-color: #fff;
+}
+
+.brand-image--custom {
+    /* margin-left: 0 !important; */
+}
+
+.custom-list-group>li {
+    display: inline-table;
+}
+
+.custom-list-group>li>h5 {
+    font-weight: bold;
+}
+
+.custom-list-group>li>a {
+    text-decoration: none;
+    color          : inherit;
+    cursor         : pointer;
+}
+
+.custom-list-group>li:hover {
+    background-color: #0000000d;
+}
+
+.center-block {
+    display     : block;
+    margin-right: auto !important;
+    margin-left : auto !important;
+}
+
+.material-item {
+    border: none;
+    border-radius: 3px;
+    box-shadow:
+        0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+        0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+        0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+/* Aumentando fonte das legendas dos Charts*/
+.MuiTypography-subheading-38 {
+    font-size: 1.3rem !important;
+}
+
+.nav-link--bg {
+    display: inline;
+}
+
+.nav-link--sm {
+    display: none;
+}
+
+.btn--get_taxpayer {
+    margin-top: 21% !important
+}
+
+hr.dashed {
+    border-top: 2px dashed #b1b2b3;
+}
+
+@media (max-width: 767px) {
+    .nav-link--bg {
+        display: none;
+    }
+    
+    .nav-link--sm {
+        display: inline;
+    }
+
+    .btn--get_taxpayer {
+        margin-top: 0% !important
+    }
+}
+
+.box > .box-header {
+    display: block;
+    padding: 5px 10px;
+}
+
+.box > .box-body {
+    float: left;
+    width: 100%;
+}
+
+.collapsed-box > .box-body {
+    display: none;
+}
